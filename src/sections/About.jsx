@@ -1,6 +1,6 @@
 function About() {
     return (
-        <section className="w-full bg-white py-14 md:py-20">
+        <div className="w-full bg-white py-14 md:py-20">
 
             <div className="max-w-7xl mx-auto px-5">
 
@@ -10,9 +10,13 @@ function About() {
                     <div className="flex justify-center">
 
                         <img
-                            src="/about.jpg"
-                            alt="PrimeProp Consultancy"
+                            src="/about.webp"
+                            alt="PrimeProp 9 real estate consultancy services in Pune"
                             className="w-full max-w-[320px] sm:max-w-105 md:max-w-120 object-contain"
+                            loading="lazy"
+                            decoding="async"
+                            width="600"
+                            height="600"
                         />
 
                     </div>
@@ -27,15 +31,15 @@ function About() {
 
                         <p className="mt-4 text-gray-600 text-sm sm:text-base leading-relaxed">
                             PrimeProp 9 is a professional land and real estate consultancy
-                            based in Pune. We provide complete assistance for property
-                            documentation, government approvals, legal guidance and land
-                            related services.
+                            based in Pune, providing complete assistance for property
+                            documentation, government approvals, legal guidance and
+                            land related services.
                         </p>
 
                         <p className="mt-3 text-gray-600 text-sm sm:text-base leading-relaxed">
-                            With strong experience in the real estate sector, we help clients
-                            simplify complex land procedures and ensure smooth and secure
-                            property transactions.
+                            With strong experience in the real estate sector, we help
+                            clients simplify complex land procedures and ensure smooth
+                            and secure property transactions.
                         </p>
 
 
@@ -43,22 +47,22 @@ function About() {
                         <div className="mt-6 grid grid-cols-2 gap-4 text-sm">
 
                             <div className="bg-gray-50 p-4 rounded-lg">
-                                <h3 className="font-semibold text-orange-500">15+ Years</h3>
+                                <p className="font-semibold text-orange-500">15+ Years</p>
                                 <p className="text-gray-600">Real Estate Experience</p>
                             </div>
 
                             <div className="bg-gray-50 p-4 rounded-lg">
-                                <h3 className="font-semibold text-orange-500">Pune Market</h3>
+                                <p className="font-semibold text-orange-500">Pune Market</p>
                                 <p className="text-gray-600">Local Expertise</p>
                             </div>
 
                             <div className="bg-gray-50 p-4 rounded-lg">
-                                <h3 className="font-semibold text-orange-500">Legal Support</h3>
+                                <p className="font-semibold text-orange-500">Legal Support</p>
                                 <p className="text-gray-600">Documentation Guidance</p>
                             </div>
 
                             <div className="bg-gray-50 p-4 rounded-lg">
-                                <h3 className="font-semibold text-orange-500">End-to-End</h3>
+                                <p className="font-semibold text-orange-500">End-to-End</p>
                                 <p className="text-gray-600">Consultancy Service</p>
                             </div>
 
@@ -70,7 +74,7 @@ function About() {
 
             </div>
 
-        </section>
+        </div>
     )
 }
 
